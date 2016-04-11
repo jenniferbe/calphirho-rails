@@ -8,5 +8,14 @@ body {
 .jumbotron {
   background: image-url('landing.jpg');
   color: white;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff
   }
