@@ -47,6 +47,7 @@ a {
 }
 a:active,
 a:hover {
+  color: #777;
   outline: 0;
 }
 abbr[title] {
@@ -6757,4 +6758,12 @@ button.close {
     display: none !important;
   }
 }
+/*
+@media (min-width: 980px) {
+  body {
+    padding-top: 60px;
+    padding-bottom: 42px;
+  }*/
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
