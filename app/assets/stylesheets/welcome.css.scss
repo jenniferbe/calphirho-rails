@@ -1,21 +1,3 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-   background-image: image-url('background.jpg');
-}
-
-.jumbotron {
-  background: image-url('landing.png');
-  color: white;
-  padding-bottom: 400px;
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: #fff
-  }
