@@ -40,4 +40,5 @@ gem 'puma'
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
+gem "font-awesome-rails"
 
