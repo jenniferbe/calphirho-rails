@@ -2364,8 +2364,6 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 
-
-
 $function() {
   // Setup drop down menu
   $('.dropdown-toggle').dropdown();
