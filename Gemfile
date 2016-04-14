@@ -37,6 +37,7 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
 
