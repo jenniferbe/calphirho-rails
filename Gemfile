@@ -43,4 +43,6 @@ gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
 gem "font-awesome-rails"
 gem 'feedjira'
 gem 'twitter-bootstrap-rails'
+#require 'net/http'
+#require 'open-uri'
 
