@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'officers/index'
+
   resources :widgets
 
   get 'welcome/index'
@@ -27,6 +29,7 @@ Rails.application.routes.draw do
   resources :recruitments
   resources :sisters
   resources :sponsors
+  resources :officers
 
   # Example resource route with options:
   #   resources :products do
