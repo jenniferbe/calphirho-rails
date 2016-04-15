@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :feeds
+  resources :feeds
+  resources :feeds
+  resources :feeds
   get 'officers/index'
 
   resources :widgets
@@ -12,7 +16,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 
   root 'welcome#index'
-
+  #root 'feeds#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
