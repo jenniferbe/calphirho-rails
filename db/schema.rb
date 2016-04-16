@@ -35,6 +35,16 @@ ActiveRecord::Schema.define(version: 20160415190809) do
     t.datetime "updated_at",  null: false
   end
 
+<<<<<<< HEAD
+=======
+  create_table "posts", force: :cascade do |t|
+    t.string   "title"
+    t.text     "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+>>>>>>> 4ea15e5ee11f2ea069ee1ab5a92609c3cff1c90e
   create_table "widgets", force: :cascade do |t|
     t.string   "name"
     t.text     "description"

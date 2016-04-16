@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  resources :feeds
-
+  resources :posts
   get 'officers/index'
 
   resources :widgets
